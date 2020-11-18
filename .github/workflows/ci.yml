@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - $default-branch
+      - '**'
   release:
     types: [published]
 
